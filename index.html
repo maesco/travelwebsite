@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Explorer</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Include MSAL.js for Entra ID authentication -->
+    <script src="https://alcdn.msauth.net/lib/1.4.4/js/msal.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Travel Explorer</h1>
+        <div id="auth-section">
+            <button id="loginButton" onclick="login()">Login</button>
+            <button id="logoutButton" onclick="logout()" style="display: none;">Logout</button>
+            <p id="userInfo"></p>
+        </div>
+    </header>
+
+    <main id="content" style="display: none;">
+        <h2>Explore Amazing Destinations</h2>
+        <div class="destination">
+            <h3>Paris, France</h3>
+            <p>Visit the Eiffel Tower and enjoy French cuisine!</p>
+        </div>
+        <div class="destination">
+            <h3>Tokyo, Japan</h3>
+            <p>Experience vibrant culture and modern technology.</p>
+        </div>
+        <div class="destination">
+            <h3>New York, USA</h3>
+            <p>Discover the city that never sleeps!</p>
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
