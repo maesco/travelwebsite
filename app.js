@@ -1,7 +1,7 @@
 // MSAL configuration
 const msalConfig = {
     auth: {
-        clientId: "85c5fc2c-f183-43f0-b367-835efe4135ac", // Replace with your Entra ID Application (client) ID
+        clientId: "ff789d74-fc2b-4516-8eeb-347531319702", // Replace with your Entra ID Application (client) ID
         authority: "https://login.microsoftonline.com/b46f32ba-81fe-490e-b452-9a079102204f", // Replace with your Directory (tenant) ID
         redirectUri: "https://maescotravel-ekdhfeehftcwbha6.canadacentral-01.azurewebsites.net", // Replace with your app's URL
     },
